@@ -46,7 +46,7 @@ const useCarMovement = ({
         approachCrossroad(carRef);
       }
     }
-  }, [carRef, state, isFirstCrossing]); // Added `carRef.current` and `state` as dependencies
+  }, [carRef, state]); // Added `carRef.current` and `state` as dependencies
 };
 
 export default useCarMovement;
